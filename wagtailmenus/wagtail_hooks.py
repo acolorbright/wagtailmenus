@@ -32,8 +32,6 @@ class MainMenuAdmin(ModelAdmin):
                 name=self.url_helper.get_action_url_name('edit')),
         )
 
-modeladmin_register(MainMenuAdmin)
-
 
 class FlatMenuButtonHelper(ButtonHelper):
 
